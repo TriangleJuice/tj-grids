@@ -1,4 +1,4 @@
-# TriangleJuice Grid
+# TriangleJuice Grids
 
 Simple responsive grids created with Singularity.
 
@@ -98,8 +98,6 @@ Span 8 columns on mobile starting from column 4, 7 columns on tablet starting fr
 <div class="g-8-4 t--g-7-5 d--g-4-7"></div>
 ```
 
-Use `.g-c` if you want to manually clear rows.
-
 ## Advanced example, with nesting
 
 ```
@@ -121,3 +119,5 @@ Use `.g-c` if you want to manually clear rows.
 	</div>
 </div>
 ```
+
+Always welcome to send feedback!

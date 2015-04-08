@@ -1,6 +1,6 @@
 # TriangleJuice Grid
 
-Simple responsive (isolation) grids created with Singularity.
+Simple responsive grids created with Singularity.
 
 ## How to install
 

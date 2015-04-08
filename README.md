@@ -95,7 +95,7 @@ Span the middle 4 columns on desktop:
 Span 8 columns on mobile starting from column 4, 7 columns on tablet starting from column 5 and 4 columns on desktop starting from column 7:
 
 ```
-<div class="g-8-4 t--g-7-5 dd-g-4-7"></div>
+<div class="g-8-4 t--g-7-5 d--g-4-7"></div>
 ```
 
 Use `.g-c` if you want to manually clear rows.

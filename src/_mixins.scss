@@ -1,0 +1,25 @@
+@mixin create-grid-classes($allowed-spans, $allowed-starts, $name: $grid-name, $prefix: '') {
+
+	@each $span in $allowed-spans {
+
+		@each $start in $allowed-starts {
+
+			.#{$prefix}#{$name}-#{$span}-#{$start} {
+
+				@if $span + $start <= $cols + 1 {
+
+					// @if ($start == 1 and $start + $span - 1 == $cols / 2) or ($start - 1 == $cols / 2 and $start + $span - 1 == $cols) {
+					// 	@include grid-span($span, $start, $output-style: 'float');
+					// }
+					// @else {
+            @include grid-span($span, $start);
+					// }
+
+					@if ($start == 1 and $span == $cols) {
+						@include clearfix();
+					}
+				}
+			}
+		}
+	}
+}

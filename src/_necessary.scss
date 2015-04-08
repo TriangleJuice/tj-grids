@@ -1,0 +1,15 @@
+*, *:before, *:after {
+  @include box-sizing('border-box');
+  text-rendering: optimizeLegibility;
+}
+
+.c {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.g {
+	@include clearfix();
+  float: right;
+  margin-right: -20px;
+}

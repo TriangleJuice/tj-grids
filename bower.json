@@ -1,0 +1,30 @@
+{
+  "name": "trianglejuice-grid",
+  "version": "1.0.0",
+  "authors": [
+    "Jasper Van Proeyen"
+  ],
+  "description": "Simple grids created with Singularity",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "grid",
+    "trianglejuice",
+    "singularity"
+  ],
+  "license": "MIT",
+  "main": "css/trianglejuice-grid-full.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "config.rb",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.js",
+    "package.json",
+    "src"
+  ]
+}

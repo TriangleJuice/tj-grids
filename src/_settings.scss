@@ -1,0 +1,21 @@
+// IE and stuff
+$legacy-support-for-ie: false !default;
+$legacy-support-for-mozilla: false !default;
+$default-has-layout-approach: block !default;
+$breakpoint-ie-output: false !default;
+
+// Grid settings
+$cols: 12 !default;
+$grids: $cols !default;
+// $gutters: 1/3 !default;
+$gutters: 20px !default;
+$gutter-styles: 'fixed' !default;
+$tablet: 640px !default;
+$desktop: 960px !default;
+$breakpoints: "tablet" $tablet, "desktop" $desktop !default;
+$mobile-first: true !default;
+$direction: "ltr" !default;
+
+$grid-name: 'g' !default;
+$tablet-prefix: 't--' !default;
+$desktop-prefix: 'd--' !default;

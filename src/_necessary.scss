@@ -9,7 +9,8 @@
 }
 
 .g {
-	@include clearfix();
+  @include clearfix();
   float: right;
   margin-right: -20px;
+  width: 100%;
 }
